@@ -2,19 +2,26 @@ nav{
     display: flex;
     justify-content: space-between;
     align-self: center;
-    height: 10vh;
+    height: 80px;
 }
 
 nav a{
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    text-transform: uppercase;
     text-decoration: none;
     margin-left: 20px;
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 18px;
+
 }
 
 nav img{
-    width: 147px;
+    width: 250px;
     height: 80px;
+}
+
+.landing_page{
+display: flex;
+justify-content: space-around;
 }
